@@ -1,0 +1,59 @@
+html,body{
+    height: 100%;
+}
+h1{
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    width: 900px;
+    background-color: rgb(62, 59, 59);
+display: flex;
+justify-content: space-between;
+position: relative;
+background-color: rgb(62, 59, 59);
+}
+img {
+    clip-path: circle();
+    width: 50px;
+    
+  }
+  svg{
+    width: 20px;
+    background-color: grey;
+    fill: white;
+    padding: 20px;
+    clip-path: circle()
+  }
+  .direita{
+    display: flex;
+    padding-left: 10px;
+  }
+  .botoes{
+    display: flex;
+    background-color: rgb(62, 59, 59);
+
+    
+  }
+  .flexa.svg{
+    width: 10px;
+position: absolute;
+background-color: rgb(62, 59, 59);
+  }
+  span{
+    width: 5px;
+    position: absolute;
+    background-color: rgb(176, 14, 68);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+   top: 0;
+   right: 120px;
+  }
+  
