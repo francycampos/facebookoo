@@ -1,0 +1,108 @@
+
+
+.card{
+  background-color: rgb(24, 24, 24);  
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+.direita{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.card2{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+h1{
+    margin: 0 auto;
+}
+.lupa{
+    width: 30px;
+    background-color: grey;
+    fill: white;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+.mensagem button{
+width: 30px;
+background-color: gray;
+border: 1px solid gray;
+border-radius: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+}
+
+.flexa button{
+    position: absolute;
+    bottom: -4px;
+    right: -12px;
+    z-index: 1;
+    background-color: grey;
+    border: 2px solid;
+    fill: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+
+}
+.flexa.svg{
+    width: 10px;
+
+}
+
+.flexa{
+    position: relative;
+    width: 30px;
+    
+}
+img{
+    clip-path: circle();
+    width: 40px;
+}
+
+.sino button{
+    width: 30px;
+    background-color: gray;
+    border: 1px solid gray;
+    fill: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+.sino{
+    position: relative;
+}
+
+span{
+    background-color: red;
+    border-radius: 20px;
+    padding: 0 px 10px;
+    position: absolute;
+    top: -8px;
+    height: -18px;
+    z-index: 1;
+}
+
+  
